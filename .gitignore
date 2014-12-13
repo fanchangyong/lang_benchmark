@@ -1,0 +1,6 @@
+fib_c
+fib_go
+a.out
+*.beam
+*.dump
+*.class
