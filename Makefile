@@ -27,6 +27,9 @@ run:all
 	@echo "\n\n**Nodejs**"
 	@time -p node fib.js ${n}
 
+	@echo "\n\n**Lua**"
+	@time -p lua fib.lua ${n}
+
 	@echo "\n\n**Ruby**"
 	@time -p ruby fib.rb ${n}
 
